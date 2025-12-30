@@ -470,3 +470,14 @@ section {
   background-color: #df7aba;
   border-radius: 30%;
 }
+
+#links a {
+    text-decoration: none; /* Retira o sublinhado */
+    color: #333;        /
+}
+
+/* Para dar um efeito fixe quando passas o rato */
+#links a:hover {
+    color: #007bff;        /* Muda para azul (ou outra cor) ao passar o rato */
+    text-decoration: none; 
+}
